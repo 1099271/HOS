@@ -7,22 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		948B5B642D2BA8520076CA05 /* HOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948B5B632D2BA8520076CA05 /* HOSApp.swift */; };
-		948B5B662D2BA8520076CA05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948B5B652D2BA8520076CA05 /* ContentView.swift */; };
-		948B5B682D2BA8540076CA05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948B5B672D2BA8540076CA05 /* Assets.xcassets */; };
-		948B5B6B2D2BA8540076CA05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948B5B6A2D2BA8540076CA05 /* Preview Assets.xcassets */; };
+		9458A41B2D2BAE3D000231AE /* QingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9458A41A2D2BAE3D000231AE /* QingApp.swift */; };
+		9458A41D2D2BAE3D000231AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9458A41C2D2BAE3D000231AE /* ContentView.swift */; };
+		9458A41F2D2BAE3E000231AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9458A41E2D2BAE3E000231AE /* Assets.xcassets */; };
+		9458A4222D2BAE3E000231AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9458A4212D2BAE3E000231AE /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		948B5B602D2BA8520076CA05 /* HOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		948B5B632D2BA8520076CA05 /* HOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOSApp.swift; sourceTree = "<group>"; };
-		948B5B652D2BA8520076CA05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		948B5B672D2BA8540076CA05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		948B5B6A2D2BA8540076CA05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9458A4182D2BAE3D000231AE /* Qing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9458A41A2D2BAE3D000231AE /* QingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QingApp.swift; sourceTree = "<group>"; };
+		9458A41C2D2BAE3D000231AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9458A41E2D2BAE3E000231AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9458A4212D2BAE3E000231AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9458A4232D2BAE3E000231AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9458A4242D2BAE3E000231AE /* Qing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Qing.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		948B5B5D2D2BA8520076CA05 /* Frameworks */ = {
+		9458A4152D2BAE3D000231AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,10 +34,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9458A4192D2BAE3D000231AE /* Qing */ = {
+			isa = PBXGroup;
+			children = (
+				9458A41A2D2BAE3D000231AE /* QingApp.swift */,
+				9458A41C2D2BAE3D000231AE /* ContentView.swift */,
+				9458A41E2D2BAE3E000231AE /* Assets.xcassets */,
+				9458A4232D2BAE3E000231AE /* Info.plist */,
+				9458A4242D2BAE3E000231AE /* Qing.entitlements */,
+				9458A4202D2BAE3E000231AE /* Preview Content */,
+			);
+			path = Qing;
+			sourceTree = "<group>";
+		};
+		9458A4202D2BAE3E000231AE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9458A4212D2BAE3E000231AE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		948B5B572D2BA8520076CA05 = {
 			isa = PBXGroup;
 			children = (
-				948B5B622D2BA8520076CA05 /* HOS */,
+				9458A4192D2BAE3D000231AE /* Qing */,
 				948B5B612D2BA8520076CA05 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,49 +66,30 @@
 		948B5B612D2BA8520076CA05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				948B5B602D2BA8520076CA05 /* HOS.app */,
+				9458A4182D2BAE3D000231AE /* Qing.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		948B5B622D2BA8520076CA05 /* HOS */ = {
-			isa = PBXGroup;
-			children = (
-				948B5B632D2BA8520076CA05 /* HOSApp.swift */,
-				948B5B652D2BA8520076CA05 /* ContentView.swift */,
-				948B5B672D2BA8540076CA05 /* Assets.xcassets */,
-				948B5B692D2BA8540076CA05 /* Preview Content */,
-			);
-			path = HOS;
-			sourceTree = "<group>";
-		};
-		948B5B692D2BA8540076CA05 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				948B5B6A2D2BA8540076CA05 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		948B5B5F2D2BA8520076CA05 /* HOS */ = {
+		9458A4172D2BAE3D000231AE /* Qing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 948B5B6E2D2BA8540076CA05 /* Build configuration list for PBXNativeTarget "HOS" */;
+			buildConfigurationList = 9458A42B2D2BAE3E000231AE /* Build configuration list for PBXNativeTarget "Qing" */;
 			buildPhases = (
-				948B5B5C2D2BA8520076CA05 /* Sources */,
-				948B5B5D2D2BA8520076CA05 /* Frameworks */,
-				948B5B5E2D2BA8520076CA05 /* Resources */,
+				9458A4142D2BAE3D000231AE /* Sources */,
+				9458A4152D2BAE3D000231AE /* Frameworks */,
+				9458A4162D2BAE3D000231AE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HOS;
-			productName = HOS;
-			productReference = 948B5B602D2BA8520076CA05 /* HOS.app */;
-			productType = "com.apple.product-type.application";
+			name = Qing;
+			productName = Qing;
+			productReference = 9458A4182D2BAE3D000231AE /* Qing.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
 		};
 /* End PBXNativeTarget section */
 
@@ -97,7 +101,7 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					948B5B5F2D2BA8520076CA05 = {
+					9458A4172D2BAE3D000231AE = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -115,36 +119,100 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				948B5B5F2D2BA8520076CA05 /* HOS */,
+				9458A4172D2BAE3D000231AE /* Qing */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		948B5B5E2D2BA8520076CA05 /* Resources */ = {
+		9458A4162D2BAE3D000231AE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				948B5B6B2D2BA8540076CA05 /* Preview Assets.xcassets in Resources */,
-				948B5B682D2BA8540076CA05 /* Assets.xcassets in Resources */,
+				9458A4222D2BAE3E000231AE /* Preview Assets.xcassets in Resources */,
+				9458A41F2D2BAE3E000231AE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		948B5B5C2D2BA8520076CA05 /* Sources */ = {
+		9458A4142D2BAE3D000231AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				948B5B662D2BA8520076CA05 /* ContentView.swift in Sources */,
-				948B5B642D2BA8520076CA05 /* HOSApp.swift in Sources */,
+				9458A41D2D2BAE3D000231AE /* ContentView.swift in Sources */,
+				9458A41B2D2BAE3D000231AE /* QingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		9458A4292D2BAE3E000231AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Qing/Qing.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Qing/Preview Content\"";
+				DEVELOPMENT_TEAM = 666Q292G2Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Qing/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HOS;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiao.HOS.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9458A42A2D2BAE3E000231AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Qing/Qing.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Qing/Preview Content\"";
+				DEVELOPMENT_TEAM = 666Q292G2Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Qing/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HOS;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiao.HOS.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		948B5B6C2D2BA8540076CA05 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -261,81 +329,23 @@
 			};
 			name = Release;
 		};
-		948B5B6F2D2BA8540076CA05 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HOS/Preview Content\"";
-				DEVELOPMENT_TEAM = 666Q292G2Y;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xiao.HOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		948B5B702D2BA8540076CA05 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HOS/Preview Content\"";
-				DEVELOPMENT_TEAM = 666Q292G2Y;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xiao.HOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9458A42B2D2BAE3E000231AE /* Build configuration list for PBXNativeTarget "Qing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9458A4292D2BAE3E000231AE /* Debug */,
+				9458A42A2D2BAE3E000231AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		948B5B5B2D2BA8520076CA05 /* Build configuration list for PBXProject "HOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				948B5B6C2D2BA8540076CA05 /* Debug */,
 				948B5B6D2D2BA8540076CA05 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		948B5B6E2D2BA8540076CA05 /* Build configuration list for PBXNativeTarget "HOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				948B5B6F2D2BA8540076CA05 /* Debug */,
-				948B5B702D2BA8540076CA05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
